@@ -1,0 +1,219 @@
+
+@media (max-width: 1200px){
+    .dish-block{
+        width: 100%;
+    }
+    .dishes{
+        width: 48%;
+    }
+    
+    .sec2{
+        gap: 50px;
+    }
+    .dish-img{
+        width: 80%;
+        height: 300px;
+    }
+
+    .info-section{
+        gap: 50px;
+    }
+    .info-head{
+        width: 100%;
+    }
+    .customer-Tina p{
+        margin-top: -23px;    
+    }
+}
+
+
+
+@media(max-width: 992px){
+    .impacts{
+        width: 48%;
+    }
+    .impact-types{
+        width: 100%;
+    }
+
+
+    .img-row{
+        width: 48.5%;
+    }
+    .img-row img{
+        width: 100%;
+    }
+
+    .customer-Tina p{
+        margin-top: -50px;
+    }
+    .contact-image{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+        text-align: center;
+        padding-right: 0;
+    }
+    .contact-form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .email-input{
+        width: 100%;
+    }
+    
+    .submit-btn{
+        width: 100%;
+        padding: 1.5vh;
+    }
+}
+
+
+
+
+@media (max-width: 768px){
+    .dishes{
+        width: 100%;
+    }
+    .dish-img{
+        width: 70%;
+        height: 250px;
+    }
+
+    
+    .info-image{
+        width:400px;
+        height: 400px;
+    }
+
+    .tests{
+        gap:100px;
+    }
+    .customers{
+        width: 100%;
+    }
+
+
+     .img-row{
+        width: 48%;
+    }
+    .img-row img{
+        height: 250px;
+    }
+
+
+}
+
+
+
+
+
+@media (max-width: 575px){
+    .sec1-head h1{
+        font-size: 100px;
+    }
+    .sec1-head h2{
+        font-size: 30px;
+    }
+    .sec1-head button{
+        font-size: 20px;
+    }
+
+    .info-image{
+        width:300px;
+        height: 300px;
+    }
+    .info-head h1{
+        font-size: 50px;
+    }
+    .info-head p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .info-head button{
+        font-size: 16px;
+        padding: 10px 40px;
+    }
+
+    .dishes-head h2{
+        color: black;
+        font-size: 22px;
+
+    }
+    .dishes-head h1{
+        font-size: 35px;
+    }
+
+     .impacts{
+        width: 100%;
+    }
+
+
+   .img-row{
+        width: 100%;
+    }
+    .img-row img{
+        height: 350px;
+    }
+}
+
+
+@media (max-width: 425px){
+    .sec1-head button{
+        padding: 10px 30px;
+        font-size: 17px;
+    }
+    .info-image{
+        width:270px;
+        height: 270px;
+    }
+    .info-head h1{
+        font-size: 35px;
+
+    }
+    .info-head p{
+        font-size: 15px;
+        line-height: 25px;
+        
+    }
+    .info-head button{
+        font-size: 15px;
+
+    }
+
+
+
+    .impact-head h1{
+        font-size: 35px;
+    }
+    .impact-head h2{
+        font-size: 23px;
+        
+    }
+    .impact-types h4{
+        font-size: 18px;
+    }
+    .impact-types p{
+        font-size: 15px;
+    }
+
+     .test-head h2{
+        font-size: 23px;
+    }
+     .test-head h1{
+        font-size: 35px;
+    }
+    
+
+    .contact-head h1{
+        font-size: 35px;
+    }
+    .contact-image img{
+        width: 270px;
+        height: 270px;
+    }
+}

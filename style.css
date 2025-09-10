@@ -1,0 +1,392 @@
+:root{
+    --green-color:rgb(44,204,56);
+    --Merriweather-font:"Merriweather", serif;
+    --Lobster-font: "Lobster", sans-serif;;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--Merriweather-font);
+
+}
+.noscroll{
+    overflow: hidden;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bars{
+    font-size: 30px;
+    transition: .5s;
+
+}
+
+#menu-bg{
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height:100%;
+    z-index: 1;
+    top: 70px; 
+    transition: .5s;
+}
+
+#menu{
+    position: absolute;
+    width: 330px;
+    height:100%;
+    top: 70px;
+    left: 0;
+    transform: translateX(-330px);
+    z-index: 4;
+    transition: .5s;
+
+}
+#menu ul{
+    padding:40px 0;
+    height: 100% ;
+    text-align: center;
+    width: 330px;
+    background-color: rgb(32, 32, 32);
+}
+#menu ul li{
+    list-style: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding:5px 0;
+}
+#menu ul li:hover{
+    background-color: rgb(62, 62, 62);
+    color: var(--green-color);
+    transition: .3s;
+}
+
+
+
+.sec1{
+    height: 800px;
+    background-image: url(images/bowl-rice-vegetables.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+.sec1-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+.sec1-head h1{
+    color: white;
+    font-family: var(--Lobster-font);
+    font-style: italic;
+    font-size: 150px;
+}
+.sec1-head h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.sec1-head button{
+    color: white;
+    background-color: var(--green-color);
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px 50px;
+    transition: .5s;
+    cursor: pointer;
+}
+.sec1-head button:hover{
+    filter: brightness(50%);
+}
+
+
+.sec2{
+    height: fit-content;
+    padding: 100px 0;
+}
+.dishes-head{
+    width: 100%;
+    height: fit-content;
+    padding: 30px 0;
+    text-align: center;
+}
+.dishes-head h2{
+    color: black;
+    font-family: var(--Lobster-font);
+
+}
+.dishes-head h1{
+    color: black;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.dish-block{
+    width: 100%;
+}
+.dishes{
+    height: fit-content;
+    width: 48%;
+}
+.dish-img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.dishes h1{
+    color: white;
+    background-color: var(--green-color);
+    border-radius: 50%;
+    font-family: sans-serif;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+.dishes p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.sec3{
+    padding: 100px 0;
+}
+
+.info-head{
+    width: 50%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.info-head h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+.info-head p{
+    font-size: 19px;
+    line-height: 37px;
+    font-weight: 300;
+}
+.info-head button{
+    color: white;
+    background-color: var(--green-color);
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px 50px;
+    transition: .5s;
+    cursor: pointer;
+}
+.info-head button:hover{
+    filter: brightness(50%);
+}
+
+
+.info-image{
+    background-image: url("images/bowl-with-salmon-rice.jpg");
+    background-size: cover;
+    width:500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+
+.about-section{
+    background-image: url('images/avocados.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}   
+.about-icons{
+    width: 100%;
+    padding: 100px 0;
+    gap: 100px;
+}
+.about-icon{
+    background-color: var(--green-color);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 19px;
+}
+.about-icon img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.impact-section{
+    padding: 100px 0;
+}
+.impact-head{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.impact-head h2{
+    font-family: var(--Lobster-font);
+}
+.impact-head h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.impact-types{
+    width: 30%;
+}
+.impact-types img{
+    width: 70px;
+    height: 70px;
+}
+.impact-types p{
+    font-size: 19px;
+}
+
+
+
+
+.testemonials{
+    padding: 100px  0;
+}
+.test-head{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 70px ;
+    text-align: center;
+}
+.test-head h2{
+    font-family: var(--Lobster-font);
+}
+.test-head h1{
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.tests{
+    width: 100%;
+    height: fit-content;
+}
+.customers{
+    background-color: white;
+    width: 49%;
+    height: fit-content;
+    padding: 30px;
+}
+.customers p{
+    font-size: 18px;
+    margin-top: -50px;
+}
+.customers h5{
+    font-weight: 800;
+}
+.customer-img{
+    width: 180px;
+    height: 180px;
+    border-radius:50%;
+    transform: translateY(-50%);
+}
+
+.Nina{
+    background-image: url("images/Nina.jpeg");
+    background-size: cover;
+    background-position-x: -40px;
+}
+.Tina{
+    background-image: url("images/Tina");
+    background-size: cover;
+    background-position:center;
+}
+
+
+.gallery{
+    padding: 100px 0;
+}
+
+.img-row img{
+    width: 32%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+
+.contact-section{
+    padding: 100px 0;
+}
+.contact-head{
+    padding-bottom:30px;
+    text-align: center;
+    width: 100%;
+}
+.contact-head h1{
+    font-size: 50px;
+    font-weight:700;
+}
+.contact-image{
+    width: 50%;
+    padding-right: 40px;
+}
+.contact-image img{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+.contact-form{
+    width: 50%;
+}
+.email-input{
+    background-color: rgb(230, 230, 230);
+    width: 70%;
+    border: none;
+}
+form{
+        width: 100%;
+    }
+.submit-btn{
+    background-color: var(--green-color);
+    width:30%;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.submit-btn:hover{
+    filter: brightness(50%);
+}
+
+
+footer{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-size: 15px;
+}
